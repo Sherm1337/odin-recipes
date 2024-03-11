@@ -36,3 +36,16 @@ a {
     margin-left: auto;
     margin-right: auto;
 }
+#ka {
+    width: 250px;
+    border-radius: 50px;
+    font-size: large;
+}
+.ka {
+    min-width: fit-content;
+    max-width: fit-content;
+    width: 250px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
