@@ -1,0 +1,38 @@
+body {
+    background-color: bisque;
+}
+h1 {
+    text-decoration: underline;
+    font-family: fantasy;
+}
+a {
+    color: black;
+    font-family: fantasy;
+}
+#pbj {
+    width: 250px;
+    border-radius: 50px;
+    font-size: large;
+}
+.pbj {
+    min-width: fit-content;
+    max-width: fit-content;
+    width: 250px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+#cr {
+    width: 250px;
+    border-radius: 50px;
+    font-size: large;
+}
+.cr {
+    min-width: fit-content;
+    max-width: fit-content;
+    width: 250px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
