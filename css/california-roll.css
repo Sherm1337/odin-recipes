@@ -1,13 +1,18 @@
 body {
     background-color: bisque;
+    border: solid 5px;
+    border-color: brown;
+    border-style: outset;
 }
 h1 {
     text-decoration: underline;
     font-family: fantasy;
+    text-align: center;
 }
 h2 {
     color: black;
     font-family: fantasy;
+    text-align: center;
 }
 #cr {
     width: 250px;
@@ -21,10 +26,17 @@ h2 {
 }
 .recipe {
     max-width: fit-content;
-    margin-left: auto;
+    margin-left: 100px;
     margin-right: auto;
 }
 .home {
     max-width: fit-content;
-    margin-left: 100px;
+    text-align: left;
+    margin-left: 50px;
+}
+#ingredients {
+    font-weight: bold;
+}
+#steps {
+    font-weight: bold;
 }
