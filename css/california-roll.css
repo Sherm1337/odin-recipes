@@ -1,8 +1,9 @@
 body {
-    background-color: bisque;
     border: solid 5px;
-    border-color: brown;
+    border-color: black;
     border-style: outset;
+    padding: 10px 0 357px 0;
+    background-image: linear-gradient(bisque, brown);
 }
 h1 {
     text-decoration: underline;
@@ -17,6 +18,7 @@ h2 {
 #cr {
     width: 250px;
     border-radius: 50px;
+    border: solid black 4px;
 }
 .cr {
     max-width: fit-content;
@@ -26,17 +28,35 @@ h2 {
 }
 .recipe {
     max-width: fit-content;
-    margin-left: 100px;
-    margin-right: auto;
+    margin: 10px 10px auto 75px;
+    border: solid black 5px;
+    border-radius: 10px;
+    padding: 10px;
 }
 .home {
     max-width: fit-content;
     text-align: left;
     margin-left: 50px;
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+    border: solid black 4px;
+    border-radius: 10px;
+    padding: 5px;
 }
 #ingredients {
     font-weight: bold;
+    text-decoration: underline;
 }
 #steps {
     font-weight: bold;
+    text-decoration: underline;
+}
+ul li,
+ol li {
+    margin-bottom: 10px;
+}
+ol li {
+    font-size: 18px;
+    margin-right: 15px;
 }
